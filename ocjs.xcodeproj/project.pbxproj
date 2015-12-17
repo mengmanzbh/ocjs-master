@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4B62D01C2060F200C26E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B62CF1C2060F200C26E9A /* main.m */; };
+		CD4B62D31C2060F200C26E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B62D21C2060F200C26E9A /* AppDelegate.m */; };
+		CD4B62D61C2060F200C26E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B62D51C2060F200C26E9A /* ViewController.m */; };
+		CD4B62D91C2060F200C26E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B62D71C2060F200C26E9A /* Main.storyboard */; };
+		CD4B62DB1C2060F200C26E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4B62DA1C2060F200C26E9A /* Assets.xcassets */; };
+		CD4B62DE1C2060F200C26E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B62DC1C2060F200C26E9A /* LaunchScreen.storyboard */; };
+		CD4B62E91C2060F200C26E9A /* ocjsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B62E81C2060F200C26E9A /* ocjsTests.m */; };
+		CD4B62F41C2060F200C26E9A /* ocjsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B62F31C2060F200C26E9A /* ocjsUITests.m */; };
+		CD4B63091C20611C00C26E9A /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4B63031C20611C00C26E9A /* WebViewJavascriptBridge.js.txt */; };
+		CD4B630A1C20611C00C26E9A /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B63041C20611C00C26E9A /* WebViewJavascriptBridge.m */; };
+		CD4B630B1C20611C00C26E9A /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B63061C20611C00C26E9A /* WebViewJavascriptBridgeBase.m */; };
+		CD4B630C1C20611C00C26E9A /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B63081C20611C00C26E9A /* WKWebViewJavascriptBridge.m */; };
+		CD4B630E1C20616700C26E9A /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = CD4B630D1C20616700C26E9A /* ExampleApp.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4B62E51C2060F200C26E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4B62C31C2060F200C26E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4B62CA1C2060F200C26E9A;
+			remoteInfo = ocjs;
+		};
+		CD4B62F01C2060F200C26E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4B62C31C2060F200C26E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4B62CA1C2060F200C26E9A;
+			remoteInfo = ocjs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4B62CB1C2060F200C26E9A /* ocjs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ocjs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B62CF1C2060F200C26E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD4B62D11C2060F200C26E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD4B62D21C2060F200C26E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD4B62D41C2060F200C26E9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD4B62D51C2060F200C26E9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD4B62D81C2060F200C26E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4B62DA1C2060F200C26E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4B62DD1C2060F200C26E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4B62DF1C2060F200C26E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4B62E41C2060F200C26E9A /* ocjsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocjsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B62E81C2060F200C26E9A /* ocjsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ocjsTests.m; sourceTree = "<group>"; };
+		CD4B62EA1C2060F200C26E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4B62EF1C2060F200C26E9A /* ocjsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocjsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4B62F31C2060F200C26E9A /* ocjsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ocjsUITests.m; sourceTree = "<group>"; };
+		CD4B62F51C2060F200C26E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4B63021C20611C00C26E9A /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		CD4B63031C20611C00C26E9A /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		CD4B63041C20611C00C26E9A /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		CD4B63051C20611C00C26E9A /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		CD4B63061C20611C00C26E9A /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		CD4B63071C20611C00C26E9A /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		CD4B63081C20611C00C26E9A /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		CD4B630D1C20616700C26E9A /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ExampleApp.html; path = WebViewJavascriptBridge/ExampleApp.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4B62C81C2060F200C26E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B62E11C2060F200C26E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B62EC1C2060F200C26E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4B62C21C2060F200C26E9A = {
+			isa = PBXGroup;
+			children = (
+				CD4B62CD1C2060F200C26E9A /* ocjs */,
+				CD4B62E71C2060F200C26E9A /* ocjsTests */,
+				CD4B62F21C2060F200C26E9A /* ocjsUITests */,
+				CD4B62CC1C2060F200C26E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4B62CC1C2060F200C26E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B62CB1C2060F200C26E9A /* ocjs.app */,
+				CD4B62E41C2060F200C26E9A /* ocjsTests.xctest */,
+				CD4B62EF1C2060F200C26E9A /* ocjsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4B62CD1C2060F200C26E9A /* ocjs */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B63011C20611C00C26E9A /* WebViewJavascriptBridge */,
+				CD4B62D11C2060F200C26E9A /* AppDelegate.h */,
+				CD4B62D21C2060F200C26E9A /* AppDelegate.m */,
+				CD4B62D41C2060F200C26E9A /* ViewController.h */,
+				CD4B62D51C2060F200C26E9A /* ViewController.m */,
+				CD4B630D1C20616700C26E9A /* ExampleApp.html */,
+				CD4B62D71C2060F200C26E9A /* Main.storyboard */,
+				CD4B62DA1C2060F200C26E9A /* Assets.xcassets */,
+				CD4B62DC1C2060F200C26E9A /* LaunchScreen.storyboard */,
+				CD4B62DF1C2060F200C26E9A /* Info.plist */,
+				CD4B62CE1C2060F200C26E9A /* Supporting Files */,
+			);
+			path = ocjs;
+			sourceTree = "<group>";
+		};
+		CD4B62CE1C2060F200C26E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B62CF1C2060F200C26E9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD4B62E71C2060F200C26E9A /* ocjsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B62E81C2060F200C26E9A /* ocjsTests.m */,
+				CD4B62EA1C2060F200C26E9A /* Info.plist */,
+			);
+			path = ocjsTests;
+			sourceTree = "<group>";
+		};
+		CD4B62F21C2060F200C26E9A /* ocjsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B62F31C2060F200C26E9A /* ocjsUITests.m */,
+				CD4B62F51C2060F200C26E9A /* Info.plist */,
+			);
+			path = ocjsUITests;
+			sourceTree = "<group>";
+		};
+		CD4B63011C20611C00C26E9A /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B63021C20611C00C26E9A /* WebViewJavascriptBridge.h */,
+				CD4B63031C20611C00C26E9A /* WebViewJavascriptBridge.js.txt */,
+				CD4B63041C20611C00C26E9A /* WebViewJavascriptBridge.m */,
+				CD4B63051C20611C00C26E9A /* WebViewJavascriptBridgeBase.h */,
+				CD4B63061C20611C00C26E9A /* WebViewJavascriptBridgeBase.m */,
+				CD4B63071C20611C00C26E9A /* WKWebViewJavascriptBridge.h */,
+				CD4B63081C20611C00C26E9A /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4B62CA1C2060F200C26E9A /* ocjs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4B62F81C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjs" */;
+			buildPhases = (
+				CD4B62C71C2060F200C26E9A /* Sources */,
+				CD4B62C81C2060F200C26E9A /* Frameworks */,
+				CD4B62C91C2060F200C26E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ocjs;
+			productName = ocjs;
+			productReference = CD4B62CB1C2060F200C26E9A /* ocjs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4B62E31C2060F200C26E9A /* ocjsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4B62FB1C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjsTests" */;
+			buildPhases = (
+				CD4B62E01C2060F200C26E9A /* Sources */,
+				CD4B62E11C2060F200C26E9A /* Frameworks */,
+				CD4B62E21C2060F200C26E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4B62E61C2060F200C26E9A /* PBXTargetDependency */,
+			);
+			name = ocjsTests;
+			productName = ocjsTests;
+			productReference = CD4B62E41C2060F200C26E9A /* ocjsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD4B62EE1C2060F200C26E9A /* ocjsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4B62FE1C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjsUITests" */;
+			buildPhases = (
+				CD4B62EB1C2060F200C26E9A /* Sources */,
+				CD4B62EC1C2060F200C26E9A /* Frameworks */,
+				CD4B62ED1C2060F200C26E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4B62F11C2060F200C26E9A /* PBXTargetDependency */,
+			);
+			name = ocjsUITests;
+			productName = ocjsUITests;
+			productReference = CD4B62EF1C2060F200C26E9A /* ocjsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4B62C31C2060F200C26E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lll;
+				TargetAttributes = {
+					CD4B62CA1C2060F200C26E9A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD4B62E31C2060F200C26E9A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD4B62CA1C2060F200C26E9A;
+					};
+					CD4B62EE1C2060F200C26E9A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD4B62CA1C2060F200C26E9A;
+					};
+				};
+			};
+			buildConfigurationList = CD4B62C61C2060F200C26E9A /* Build configuration list for PBXProject "ocjs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4B62C21C2060F200C26E9A;
+			productRefGroup = CD4B62CC1C2060F200C26E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4B62CA1C2060F200C26E9A /* ocjs */,
+				CD4B62E31C2060F200C26E9A /* ocjsTests */,
+				CD4B62EE1C2060F200C26E9A /* ocjsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4B62C91C2060F200C26E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B630E1C20616700C26E9A /* ExampleApp.html in Resources */,
+				CD4B63091C20611C00C26E9A /* WebViewJavascriptBridge.js.txt in Resources */,
+				CD4B62DE1C2060F200C26E9A /* LaunchScreen.storyboard in Resources */,
+				CD4B62DB1C2060F200C26E9A /* Assets.xcassets in Resources */,
+				CD4B62D91C2060F200C26E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B62E21C2060F200C26E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B62ED1C2060F200C26E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4B62C71C2060F200C26E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B62D61C2060F200C26E9A /* ViewController.m in Sources */,
+				CD4B630A1C20611C00C26E9A /* WebViewJavascriptBridge.m in Sources */,
+				CD4B62D31C2060F200C26E9A /* AppDelegate.m in Sources */,
+				CD4B62D01C2060F200C26E9A /* main.m in Sources */,
+				CD4B630B1C20611C00C26E9A /* WebViewJavascriptBridgeBase.m in Sources */,
+				CD4B630C1C20611C00C26E9A /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B62E01C2060F200C26E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B62E91C2060F200C26E9A /* ocjsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4B62EB1C2060F200C26E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4B62F41C2060F200C26E9A /* ocjsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4B62E61C2060F200C26E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4B62CA1C2060F200C26E9A /* ocjs */;
+			targetProxy = CD4B62E51C2060F200C26E9A /* PBXContainerItemProxy */;
+		};
+		CD4B62F11C2060F200C26E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4B62CA1C2060F200C26E9A /* ocjs */;
+			targetProxy = CD4B62F01C2060F200C26E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4B62D71C2060F200C26E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B62D81C2060F200C26E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4B62DC1C2060F200C26E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B62DD1C2060F200C26E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4B62F61C2060F200C26E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD4B62F71C2060F200C26E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4B62F91C2060F200C26E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ocjs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lll.ocjs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD4B62FA1C2060F200C26E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ocjs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lll.ocjs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD4B62FC1C2060F200C26E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ocjsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lll.ocjsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocjs.app/ocjs";
+			};
+			name = Debug;
+		};
+		CD4B62FD1C2060F200C26E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ocjsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lll.ocjsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocjs.app/ocjs";
+			};
+			name = Release;
+		};
+		CD4B62FF1C2060F200C26E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ocjsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lll.ocjsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ocjs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD4B63001C2060F200C26E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ocjsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lll.ocjsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ocjs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4B62C61C2060F200C26E9A /* Build configuration list for PBXProject "ocjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B62F61C2060F200C26E9A /* Debug */,
+				CD4B62F71C2060F200C26E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4B62F81C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B62F91C2060F200C26E9A /* Debug */,
+				CD4B62FA1C2060F200C26E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD4B62FB1C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B62FC1C2060F200C26E9A /* Debug */,
+				CD4B62FD1C2060F200C26E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD4B62FE1C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4B62FF1C2060F200C26E9A /* Debug */,
+				CD4B63001C2060F200C26E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4B62C31C2060F200C26E9A /* Project object */;
+}
