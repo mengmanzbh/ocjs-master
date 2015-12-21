@@ -11,13 +11,29 @@
 @interface ViewController ()<UIWebViewDelegate>
 @property WebViewJavascriptBridge* bridge;
 @property (nonatomic, strong) UIWebView *webView;
+@property (nonatomic, strong) UIButton *reload;
 @end
 
 @implementation ViewController
+- (UIButton *)reload{
 
+    if (!_reload) {
+        _reload = [[UIButton alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.bounds)-50, CGRectGetWidth(self.view.bounds), 50)];
+        _reload.backgroundColor = [UIColor brownColor];
+        [_reload setTitle:@"刷新" forState:UIControlStateNormal];
+        [_reload setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
+        [_reload addTarget:self action:@selector(reloadweb:) forControlEvents:UIControlEventTouchUpInside];
+        
+    }
+    return _reload;
+}
+- (void)reloadweb:(UIButton *)btn{
+    NSLog(@"网页刷新");
+    [self.webView reload];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 20, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 50)];
     self.webView.delegate = self;
     [self.view addSubview:self.webView];
     [self loadExamplePage:self.webView];
@@ -41,6 +57,9 @@
     }];
     //调用js中的方法showAlert
 //    [self.bridge callHandler:@"showAlert" data:@"11"];
+    
+   
+    [self.view addSubview:self.reload];
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
     
@@ -51,7 +70,7 @@
     return YES;
 }
 - (void)loadExamplePage:(UIWebView*)webView {
-    NSString* htmlPath = [[NSBundle mainBundle] pathForResource:@"ExampleApp" ofType:@"html"];
+    NSString* htmlPath = [[NSBundle mainBundle] pathForResource:@"licai" ofType:@"html"];
     NSString* appHtml = [NSString stringWithContentsOfFile:htmlPath encoding:NSUTF8StringEncoding error:nil];
     NSURL *baseURL = [NSURL fileURLWithPath:htmlPath];
     [webView loadHTMLString:appHtml baseURL:baseURL];

@@ -20,6 +20,7 @@
 		CD4B630B1C20611C00C26E9A /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B63061C20611C00C26E9A /* WebViewJavascriptBridgeBase.m */; };
 		CD4B630C1C20611C00C26E9A /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4B63081C20611C00C26E9A /* WKWebViewJavascriptBridge.m */; };
 		CD4B630E1C20616700C26E9A /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = CD4B630D1C20616700C26E9A /* ExampleApp.html */; };
+		D5A513B31C239E5F0059114A /* licai.html in Resources */ = {isa = PBXBuildFile; fileRef = D5A513B21C239E5F0059114A /* licai.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		CD4B63071C20611C00C26E9A /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		CD4B63081C20611C00C26E9A /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		CD4B630D1C20616700C26E9A /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ExampleApp.html; path = WebViewJavascriptBridge/ExampleApp.html; sourceTree = "<group>"; };
+		D5A513B21C239E5F0059114A /* licai.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = licai.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		CD4B62CD1C2060F200C26E9A /* ocjs */ = {
 			isa = PBXGroup;
 			children = (
+				D5A513B11C239E5F0059114A /* html */,
 				CD4B63011C20611C00C26E9A /* WebViewJavascriptBridge */,
 				CD4B62D11C2060F200C26E9A /* AppDelegate.h */,
 				CD4B62D21C2060F200C26E9A /* AppDelegate.m */,
@@ -167,6 +170,14 @@
 				CD4B63081C20611C00C26E9A /* WKWebViewJavascriptBridge.m */,
 			);
 			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		D5A513B11C239E5F0059114A /* html */ = {
+			isa = PBXGroup;
+			children = (
+				D5A513B21C239E5F0059114A /* licai.html */,
+			);
+			path = html;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +286,7 @@
 				CD4B630E1C20616700C26E9A /* ExampleApp.html in Resources */,
 				CD4B63091C20611C00C26E9A /* WebViewJavascriptBridge.js.txt in Resources */,
 				CD4B62DE1C2060F200C26E9A /* LaunchScreen.storyboard in Resources */,
+				D5A513B31C239E5F0059114A /* licai.html in Resources */,
 				CD4B62DB1C2060F200C26E9A /* Assets.xcassets in Resources */,
 				CD4B62D91C2060F200C26E9A /* Main.storyboard in Resources */,
 			);
@@ -530,6 +542,7 @@
 				CD4B62FA1C2060F200C26E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD4B62FB1C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjsTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +551,7 @@
 				CD4B62FD1C2060F200C26E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD4B62FE1C2060F200C26E9A /* Build configuration list for PBXNativeTarget "ocjsUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +560,7 @@
 				CD4B63001C2060F200C26E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

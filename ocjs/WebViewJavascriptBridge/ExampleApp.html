@@ -41,16 +41,14 @@
                                                               alert(data)
                                                               })
                                        
-                                       var board = document.getElementById("1111");
-                                       var e =document.createElement("input");
-                                       e.type = "button";
-                                       e.value = "调用ios相机";
-                                       var object = board.insertBefore(e);
                                        
-                                       e.onclick = function(e) {
+                                       var board = document.getElementById("112");
+                                       board.onclick = function(e) {
                                        e.preventDefault()
                                        //调用oc中camera方法
                                        bridge.callHandler("camera")
+                                       
+                                       
                                        }
                                        
                                        })
@@ -62,4 +60,5 @@
 	</script>
     <a href="#" onClick="chooseType()" id ="111">头像</a>
     <p  id ="1111">如果</p>
+    <p  id ="112">摄像机</p>
 </body></html>
